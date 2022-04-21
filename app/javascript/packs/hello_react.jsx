@@ -3,7 +3,7 @@
 // of the page.
 
 import React from 'react'
-import ReactDOM from 'react-dom/client'
+import ReactDOM from 'react-dom'
 import PropTypes from 'prop-types'
 
 const Hello = props => (
