@@ -1,24 +1,75 @@
-# README
+# hello-react-rails
+This is a simple project that where I connect react and ruby on rails to diplay random greetings
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Built With
 
-Things you may want to cover:
+- Ruby
+- Ruby on Rails
+- Javascript
+- React
+## Getting Started
 
-* Ruby version
+To get a local copy up and running follow these simple example steps.
 
-* System dependencies
+git clone https://github.com/Danieldotcomcoder/hello-react-rails.git
 
-* Configuration
+cd hello-react-rails
 
-* Database creation
+### Setup
 
-* Database initialization
+Install npm with:
 
-* How to run the test suite
+```
+npm i
+```
+Install gems with:
 
-* Services (job queues, cache servers, search engines, etc.)
+```
+bundle install
+```
+Setup database with:
 
-* Deployment instructions
+```
+rails db:create
+rails db:migrate
+```
+### Usage
 
-* ...
+Start server with:
+
+```
+rails server
+```
+
+Open http://localhost:3000/ in your browser.
+
+### Run tests
+
+Install rspec with:
+
+```
+bundle install
+```
+
+and
+
+```
+rails generate rspec:install
+```
+
+run the test with:
+
+```
+rspec spec
+```
+
+👤 **Zachee Ishimwe**
+
+- GitHub: [@zacheeIshimwe](https://github.com/ishimwezachee)
+- LinkedIn: [@zacheeIshimwe](https://www.linkedin.com/in/zachee-ishimwe-ab952a119/)
+
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
